@@ -59,6 +59,13 @@
 
     - Visual Display of the confusion matrix for better interpretability.
 ## Results
+ - After training the Random Forest model, its performance was evaluated using the test dataset. Below are the results:
+   - ## Classification Report:
+   | Survived | Precision | Recall | F1-score | Support |
+   |----------|-----------|--------|----------|---------|
+   | 0        | 0.84      | 0.91   | 0.87     | 110     |
+   | 1        | 0.83      | 0.72   | 0.78     | 69      |
+
 ## How to Run
 1. Creation of virtual environments
 ```Bash
